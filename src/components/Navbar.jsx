@@ -7,7 +7,7 @@ import Resume from "../contents/ShwejanPeddi_Resume.pdf";
 
 function Navbar() {
 
-  const [mode,setMode] = React.useState(faMoon)
+  const [mode,setMode] = React.useState(faSun)
 
   function handleClick(){
     setMode(()=>{
