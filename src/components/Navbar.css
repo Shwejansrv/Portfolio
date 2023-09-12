@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.leftnav{
+    display: flex;
+}
+
+.left-buttons{
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #00FFCA;
+    border: #00FFCA;
+}
+
+.rightnav{
+    margin-right: 3%;
+}
+.resume-button{
+    height: 50%;
+    border-radius: 5px;
+    background-color: #00FFCA;
+    border: #00FFCA;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #00FFCA;
+    border-color: #00FFCA;
+    box-shadow: #45FFCA 0 10px 20px -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0 solid transparent;
+    touch-action: manipulation;
+    border: 0;
+}
+.modeicon{
+    margin-top: 1px;
+    margin-right: 40px;
+}

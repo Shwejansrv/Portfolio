@@ -1,0 +1,43 @@
+.project-heading{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.projects{
+    margin-left: 10%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.project{
+    text-align: center;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.project-title{
+    font-weight: bold;
+}
+
+.project-hover {
+    display: none;
+    position: absolute; /* Position it absolutely within the project container */
+    top: 40%;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 10px;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+  }
+
+.project-link > a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.projects:hover .project-hover {
+    display: block; /* Show the repository link on hover */
+  }

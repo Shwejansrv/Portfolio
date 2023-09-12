@@ -1,0 +1,66 @@
+.footer{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+    /* border-style: solid; */
+    border-radius: 25px;
+    padding: 10%; 
+}
+
+.mailbox{
+    margin-top: 15%;
+    /* margin-left: 5%; */
+}
+
+.mailbox>a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.contact-icons{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.contact-icon{
+    color: inherit;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 15%;
+}
+form > input{
+    height: 11%;
+}
+.form--input{
+    margin-top: 13%;
+    width: 85%;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+
+.form--submit{
+    margin-top: 10%;
+    height: 15%;
+    border-radius: 5px;
+    background-color: #00FFCA;
+    border-color: #00FFCA;
+    box-shadow: #45FFCA 0 10px 20px -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0 solid transparent;
+    touch-action: manipulation;
+    border: 0;
+}

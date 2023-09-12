@@ -1,0 +1,70 @@
+.intro{
+    margin-top: 20%;
+    font-size: 1.1em;
+}
+.intro-heading{
+    margin-left: 10%;
+}
+
+.aboutme{
+    margin: auto;
+    text-align: center;
+   
+    border-color: #0A4D68;
+    border-radius: 40px;
+    width: 75%;
+    padding: 15px;
+  }
+  .aboutmecard{
+    display: flex;
+  }
+  .card1,.card2{
+    margin-top: 3%;
+    flex: 1;
+  }
+  .card1{
+    display: flex;
+  }
+  .card1img,.card1desc{
+    flex: 1;
+  }
+  .card1img{
+    text-align: center;
+  }
+  .card1desc{
+    text-align: left;
+  }
+  .myimage{
+    width: 70%;
+    border-radius: 50px;
+  }
+  .card2{
+    text-align: left;
+    margin-left: 4%;
+  }
+
+.about-resume-button{
+    height: 30px;
+    border-radius: 5px;
+    border: #00FFCA;
+    border-radius: 5px;
+    background-color: #00FFCA;
+    border-color: #00FFCA;
+    box-shadow: #45FFCA 0 10px 20px -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0 solid transparent;
+    touch-action: manipulation;
+    border: 0;
+}
+
+.intro-edu{
+    width: 75%;
+    margin-left: 10%;
+}
+
+.iit-box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
