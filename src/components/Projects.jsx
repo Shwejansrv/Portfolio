@@ -4,13 +4,13 @@ import {motion} from 'framer-motion'
 
 function Projects(){
     const projectDetails = [
-        { title: 'Third Eye : Object recognition for Visually Impaired', 
+        { title: 'A Library Management System', 
           description: 'Constructed an ER model for the application, turned it into a relational schema and then used it to develop a SQL script that addressed 95% of the desired data.Built a Web application with a database as the backend to store information about people, books, documents, and other objects.',
           github:"https://github.com/shwejansrv/", },
         { title: 'Driver Drowsiness Detection', 
           description: 'Designed and implemented a computer vision and deep learning model using Tensorflow, Keras, and OpenCV to detect driver drowsiness in real-time. Developed an alarm system that alerts drivers when they exhibit signs of drowsiness, helping prevent accidents caused by driver fatigue.',
           github:"https://github.com/shwejansrv/", },
-        { title: 'A Library Management System', 
+        { title: 'Third Eye : Object recognition for Visually Impaired', 
           description: 'Developed a Machine Learning model using YOLO V5 algorithm to accurately and efficiently detect objects in real-time video streams captured through a camera.Utilized text-to-speech libraries to convert class labels of identified objects into speech, providing real-time audio feedback for visually impaired individuals.',
           github:"https://github.com/shwejansrv/", },
       ]
