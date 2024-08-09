@@ -7,11 +7,13 @@ import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
+import Contactbar from './components/ContactBar'
 
 function App(){
     return(
         <>
             <Navbar/>
+            <Contactbar/>
             <About/>
             <Intro/>
             <Projects/>
