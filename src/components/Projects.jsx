@@ -9,7 +9,7 @@ function Projects(){
           github:"https://github.com/Shwejansrv/Video-to-MP3-Microservice-Converter", },
         { title: 'PayFlow', 
           description: 'Developed a comprehensive payment solution by integrating Stripe with a Go backend and a React frontend. The Go server efficiently manages payment processing and API requests, leveraging Go"s concurrency capabilities to ensure high performance and scalability. The React application provides a user-friendly interface, offering real-time payment updates and a responsive design. This integration ensures secure transactions, enhances user experience, and supports various payment methods for a seamless payment process.',
-          github:"https://github.com/shwejansrv/", },
+          github:"https://github.com/Shwejansrv/PayFlow/", },
         { title: 'Driver Drowsiness Detection', 
           description: 'Designed and implemented a computer vision and deep learning model using Tensorflow, Keras, and OpenCV to detect driver drowsiness in real-time. Developed an alarm system that alerts drivers when they exhibit signs of drowsiness, helping prevent accidents caused by driver fatigue.',
           github:"https://github.com/shwejansrv/", },
