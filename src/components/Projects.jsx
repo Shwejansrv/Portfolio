@@ -4,14 +4,14 @@ import {motion} from 'framer-motion'
 
 function Projects(){
     const projectDetails = [
+        { title: 'Video to MP3 Microservice Converter', 
+          description: 'The Video to MP3 Microservice Converter is a robust application designed to facilitate the seamless conversion of video files to MP3 audio format. This project leverages modern microservice architecture principles, enabling scalability, maintainability, and efficient resource management. Built using a combination of technologies including Python, Docker, Kubernetes, RabbitMQ, MongoDB, MySQL, and Minikube, this application exemplifies how to integrate various tools into a cohesive system.',
+          github:"https://github.com/Shwejansrv/Video-to-MP3-Microservice-Converter", },
         { title: 'A Library Management System', 
           description: 'Constructed an ER model for the application, turned it into a relational schema and then used it to develop a SQL script that addressed 95% of the desired data.Built a Web application with a database as the backend to store information about people, books, documents, and other objects.',
           github:"https://github.com/shwejansrv/", },
         { title: 'Driver Drowsiness Detection', 
           description: 'Designed and implemented a computer vision and deep learning model using Tensorflow, Keras, and OpenCV to detect driver drowsiness in real-time. Developed an alarm system that alerts drivers when they exhibit signs of drowsiness, helping prevent accidents caused by driver fatigue.',
-          github:"https://github.com/shwejansrv/", },
-        { title: 'Third Eye : Object recognition for Visually Impaired', 
-          description: 'Developed a Machine Learning model using YOLO V5 algorithm to accurately and efficiently detect objects in real-time video streams captured through a camera.Utilized text-to-speech libraries to convert class labels of identified objects into speech, providing real-time audio feedback for visually impaired individuals.',
           github:"https://github.com/shwejansrv/", },
       ]
 
